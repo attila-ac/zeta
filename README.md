@@ -16,6 +16,6 @@ This work is licensed under the **CC-BY-NC 4.0 International License**, allowing
 
 Purpose:
 The repository serves to:
-1. Provide a timestamped public preprint version of the manuscript for priority purposes.
+1. Provide a timestamped public preprint version of the manuscript.
 2. Facilitate open feedback and discussion on the proposed proof.
 
