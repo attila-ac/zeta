@@ -2,12 +2,15 @@ Proof of the Riemann Hypothesis via Zeropole Balance
 
 This repository contains the manuscript **"Proof of the Riemann Hypothesis via Zeropole Balance"** authored by Attila Csordas. The manuscript presents a proposed proof of the Riemann Hypothesis using the zeropole balance framework derived from the Hadamard product of the Riemann zeta function.
 
+Associated twitter thread with the popular version of the story: https://x.com/attilacsordas/status/1872286922212532607
+
 Timeline and Notes:
 - The manuscript was finalized and submitted to the **Annals of Mathematics** on **December 24, 2024**.
 - On **December 25, 2024**, the LaTeX template was updated from the specific **aomart** format used for submission to the Annals of Mathematics to a more general template for broader accessibility. No substantive changes were made to the content of the manuscript.
 
 Contents:
 - The full manuscript is included as `manuscript_RH_via_Zeropole_Balance_Attila_Csordas_preprint_12252024.pdf`.
+- Adjustment of the Shadow Function stabiliser term to avoid ambiguities stabiliser_clean.pdf
 
 The full LaTeX source code for this manuscript will be added soon, ensuring reproducibility and enabling contributions from the community.
 
