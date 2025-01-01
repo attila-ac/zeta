@@ -10,6 +10,9 @@ Timeline and Notes:
 
 Contents:
 - The full manuscript is included as `manuscript_RH_via_Zeropole_Balance_Attila_Csordas_preprint_12252024.pdf`.
+- Appendix_Cardinality.pdf
+- Appendix_on_Trivial_Poles.pdf
+- Appendix_on_geometric_Riemann_Roch_version_of_Zerobalance_RH_proof.pdf
 - Adjustment of the Shadow Function stabiliser term to avoid ambiguities stabiliser_clean.pdf
 
 The full LaTeX source code for this manuscript will be added soon, ensuring reproducibility and enabling contributions from the community.
