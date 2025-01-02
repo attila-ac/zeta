@@ -1,3 +1,9 @@
+(*
+Formalization of the Riemann Hypothesis Proof via Zeropole Balance
+Author: Attila Csordas
+License: CC-BY-NC 4.0
+*)
+
 (* Import libraries for real numbers *)
 Require Import Reals.
 Open Scope R_scope.
