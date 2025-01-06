@@ -1,0 +1,4 @@
+-Q . Formalization
+trigonometric_exponential_constants.v
+define_complex.v
+shadow_function_degree.v
