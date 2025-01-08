@@ -71,11 +71,7 @@ Progress and Milestones
 - Implements basic operations (addition, multiplication, conjugation, etc.).
 - Introduces placeholders for gamma, trigonometric, and exponential functions.
 
-2. **Degree Computation (`shadow_function_degree.v`):**
-- Computes the minimal degree of shadow functions using `aleph_null`.
-- Verifies zeropole cancellation logic.
-
-3. **Trigonometric and Exponential Constants (`trigonometric_exponential_constants.v`):**
+2. **Trigonometric and Exponential Constants (`trigonometric_exponential_constants.v`):**
 - Builds on `define_complex.v` to formalize trigonometric and exponential functions.
 - Includes example theorems as placeholders for further development.
 
@@ -83,6 +79,22 @@ Screenshots
 The verification of the components in Coq is documented with the following screenshots:
 - `define_complex_check_screenshot.png`
 - `shadow_function_degree_check_screenshot.png`
+
+3.Hadamard Term Testing
+To validate the Hadamard product structure, we’ve split the implementation into two separate test files:
+- `hadamard_term_test.v` for handling terms associated with non-trivial zeros.
+- `hadamard_term_pole_test.v` for handling terms associated with trivial poles.
+
+These files test individual terms, ensuring correctness before combining them into the full Hadamard product
+
+4. Degree Computation Formalization (`shadow_function_degree.v`)
+The degree computation is a crucial element in the proof. It involves:
+- Defining zeropoles to represent zeros and poles conceptually.
+- Utilizing `aleph_null` as a placeholder for conceptual infinity.
+- Computing the minimal degree of shadow functions with explicit type handling for integers.
+
+**File:** `shadow_function_degree.v`  
+**Check Screenshot:** `shadow_function_degree_check_screenshot.png`
 
 License
 This work is licensed under the [CC-BY-NC 4.0 License](https://github.com/attila-ac/Proof_RH_via_Zeropole_Balance/blob/main/LICENSE.txt).
