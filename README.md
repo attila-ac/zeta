@@ -20,11 +20,32 @@ Contents:
 
 The full LaTeX source code for this manuscript will be added soon, ensuring reproducibility and enabling contributions from the community.
 
-License:
-This work is licensed under the **CC-BY-NC 4.0 International License**, allowing others to share and adapt the material for non-commercial purposes, provided proper attribution is given.
+Peer Review:
+The manuscript received an initial review from the Annals of Mathematics in January 2025:
+1. Original submission: December 24, 2024
+2. Resubmission with fixes: January 4, 2025
+3. Review received: January 9, 2025
+4. Response submitted: January 10, 2025
+
+The peer review documentation can be found in `/submissions/annals-2024-12/`:
+- `rejection-letter.pdf`: Official response from Annals of Mathematics
+- `rejection-letter-screenshot.png`: Screenshot of the original email
+- `technical_response_to_reviewer.pdf`: Detailed technical response addressing the reviewer's concerns
+- `email_response_to_reviewer.pdf`: Email response to the editorial board
+- Original submission: `manuscript_RH_via_Zeropole_Balance_Attila_Csordas_original_submission_12242024.pdf`
+- Resubmission: `manuscript_RH_via_Zeropole_Balance_Attila_Csordas_01042025_resubmission.pdf`
+
+The review focused on the Davenport-Heilbronn paper (1936) about zeros of certain Dirichlet series. Our response demonstrates why this comparison overlooks the fundamental geometric and algebraic machinery of our proof, including:
+- Zeropole perpendicularity framework
+- Riemann-Roch machinery on compactified surfaces
+- Minimality arguments through divisor theory
+- Shadow function construction
 
 Purpose:
 The repository serves to:
 1. Provide a timestamped public preprint version of the manuscript.
 2. Facilitate open feedback and discussion on the proposed proof.
+3. Document the peer review process and responses transparently
 
+License:$
+This work is licensed under the **CC-BY-NC 4.0 International License**, allowing others to share and adapt the material for non-commercial purposes, provided proper attribution is given.$
