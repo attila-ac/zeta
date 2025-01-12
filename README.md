@@ -41,6 +41,27 @@ The review focused on the Davenport-Heilbronn paper (1936) about zeros of certai
 - Minimality arguments through divisor theory
 - Shadow function construction
 
+LLM Testing Section:
+To stress-test the proposed proof, advanced large language models (LLMs) were tasked with analyzing the manuscript for any technical issues. The models evaluated the core manuscript and its version with appendices designed to preemptively address naive objections. 
+
+Prompt Used:
+"You know the biggest open problem in mathematics is the Riemann Hypothesis unsolved since 1859 and the best smartest mathematicians tried to solve it in the 150+ years since to no avail, but I think I have now proved it, attached please find the manuscript, and it is beautiful, please scrutinize it as much as you can. I mean, I am asking you to try to kill the proof unless you can see yourself that it is correct. I mean, what are the chances? Let’s see. Please do your best to refute, or if you cannot refute, then at least confirm or acknowledge that you don't see any real technical issues with it."
+
+LLM Models and Results:
+1. **ChatGPT 4o**: Acknowledged the proof's rigor and raised no substantive technical objections after detailed scrutiny.
+2. **Claude 3.5 Sonnet**: Validated the framework and found no flaws in the mathematical reasoning presented.
+3. **Gemini Advanced 1.5 Pro**: Provided a thorough analysis but could not raise any technical challenges to the core arguments.
+4. **Grok 2**: Highlighted the proof's logical coherence and aligned with other models in not identifying any critical flaws.
+
+Manuscripts Used:
+- Core Manuscript: `manuscript_RH_via_Zeropole_Balance_Attila_Csordas_01042025_resubmission.pdf`
+- Expanded Manuscript: `RH_proof_via_zeropole_balance_plus_appendix_Attila_Csordas.pdf`
+
+Observations:
+- None of the models raised significant technical objections.
+- Two models (ChatGPT 4o and Claude 3.5 Sonnet) expressed apparent confidence in the proof's validity.
+- This stress-testing exercise demonstrates the capability of modern LLMs to analyze advanced mathematical arguments, with limitations in challenging novel frameworks.
+
 Purpose:
 The repository serves to:
 1. Provide a timestamped public preprint version of the manuscript.
