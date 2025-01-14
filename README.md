@@ -41,6 +41,23 @@ The review focused on the Davenport-Heilbronn paper (1936) about zeros of certai
 - Minimality arguments through divisor theory
 - Shadow function construction
 
+Acta Mathematica Submission:
+After addressing the feedback in the form of appendices, the manuscript was revised for clarity and better exposition of the key concepts and some appendices built in. In particular:
+
+Several parts of the manuscript were rewritten to better explain the Zeropole Balance Framework.
+Special focus was given to improving the explanation of the two crucial theorems:
+Zeropole Mapping and Orthogonal Balance of $\zeta(s)$
+Zeropole Mapping and Orthogonal Balance of $\zeta^*(s)$
+Shadow Function Construction and Role of Exponential stabiliser
+While these revisions enhance the manuscript’s readability and presentation, the overall structure and mathematical integrity of the proof remain unchanged.
+
+The revised manuscript was submitted to Acta Mathematica on January 14, 2025. The submission folder is located in /submissions/acta-mathematica-2025-01/, containing the following files:
+
+manuscript_RH_via_Zeropole_Balance_Attila_Csordas_14012025_Acta_Mathematica.pdf: The updated manuscript submitted to Acta Mathematica.
+acta_mathematica_acknowledgement_of_submission.png
+
+This updated version demonstrates the robustness of the Zeropole Balance Framework and provides a clearer exposition of the two pivotal theorems, ensuring a comprehensive understanding of the proof’s foundation.
+
 LLM Testing Section:
 To stress-test the proposed proof, advanced large language models (LLMs) were tasked with analyzing the manuscript for any technical issues. The models evaluated the core manuscript and its version with appendices designed to preemptively address naive objections. 
 
