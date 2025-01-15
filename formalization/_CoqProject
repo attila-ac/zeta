@@ -4,3 +4,5 @@ define_complex.v
 shadow_function_degree.v
 hadamard_term_test.v
 hadamard_term_pole_test.v
+Hadamard_product.v
+Truncated_Hadamard_Poles.v
