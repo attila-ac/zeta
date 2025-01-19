@@ -1,0 +1,20 @@
+DIGEST 71ef9034cd2640e87e343bfc5549de07
+FFormalization.hadamard_term_pole_test
+R48:53 Coq.ZArith.ZArith <> <> lib
+R71:75 Coq.Reals.Reals <> <> lib
+R112:125 Formalization.define_complex <> <> lib
+def 235:252 <> hadamard_term_pole
+R263:263 Formalization.define_complex <> C rec
+binder 255:255 <> z:1
+binder 257:259 <> rho:2
+R268:268 Formalization.define_complex <> C rec
+R275:278 Formalization.define_complex <> Cdiv def
+R281:283 Formalization.define_complex <> mkC constr
+R291:294 Formalization.define_complex <> Csub def
+R296:296 Formalization.hadamard_term_pole_test <> z:1 var
+R298:300 Formalization.hadamard_term_pole_test <> rho:2 var
+def 363:385 <> test_hadamard_term_pole
+R389:389 Formalization.define_complex <> C rec
+R396:413 Formalization.hadamard_term_pole_test <> hadamard_term_pole def
+R416:418 Formalization.define_complex <> mkC constr
+R426:428 Formalization.define_complex <> mkC constr

@@ -1,0 +1,77 @@
+DIGEST 84289158665f1f72a174a4547bb8f826
+FFormalization.Truncated_Hadamard_Poles
+R234:239 Coq.ZArith.ZArith <> <> lib
+R276:280 Coq.Reals.Reals <> <> lib
+R340:353 Formalization.define_complex <> <> lib
+def 543:560 <> hadamard_term_pole
+R572:572 Formalization.define_complex <> C rec
+binder 563:563 <> s:1
+binder 565:568 <> pole:2
+R577:577 Formalization.define_complex <> C rec
+R584:587 Formalization.define_complex <> Cdiv def
+R590:592 Formalization.define_complex <> mkC constr
+R600:603 Formalization.define_complex <> Csub def
+R605:605 Formalization.Truncated_Hadamard_Poles <> s:1 var
+R607:610 Formalization.Truncated_Hadamard_Poles <> pole:2 var
+def 669:686 <> first_trivial_pole
+R690:690 Formalization.define_complex <> C rec
+R695:697 Formalization.define_complex <> mkC constr
+def 718:736 <> second_trivial_pole
+R740:740 Formalization.define_complex <> C rec
+R745:747 Formalization.define_complex <> mkC constr
+def 768:785 <> third_trivial_pole
+R789:789 Formalization.define_complex <> C rec
+R794:796 Formalization.define_complex <> mkC constr
+def 877:898 <> test_truncated_poles_1
+R902:902 Formalization.define_complex <> C rec
+R909:926 Formalization.Truncated_Hadamard_Poles <> hadamard_term_pole def
+R929:931 Formalization.define_complex <> mkC constr
+R938:955 Formalization.Truncated_Hadamard_Poles <> first_trivial_pole def
+def 1030:1051 <> test_truncated_poles_2
+R1055:1055 Formalization.define_complex <> C rec
+R1062:1079 Formalization.Truncated_Hadamard_Poles <> hadamard_term_pole def
+R1082:1084 Formalization.define_complex <> mkC constr
+R1091:1109 Formalization.Truncated_Hadamard_Poles <> second_trivial_pole def
+def 1183:1204 <> test_truncated_poles_3
+R1208:1208 Formalization.define_complex <> C rec
+R1215:1232 Formalization.Truncated_Hadamard_Poles <> hadamard_term_pole def
+R1235:1237 Formalization.define_complex <> mkC constr
+R1244:1261 Formalization.Truncated_Hadamard_Poles <> third_trivial_pole def
+def 1345:1372 <> hadamard_product_three_poles
+R1376:1376 Formalization.define_complex <> C rec
+R1383:1386 Formalization.define_complex <> Cmul def
+R1393:1396 Formalization.define_complex <> Cmul def
+R1398:1419 Formalization.Truncated_Hadamard_Poles <> test_truncated_poles_1 def
+R1421:1442 Formalization.Truncated_Hadamard_Poles <> test_truncated_poles_2 def
+R1449:1470 Formalization.Truncated_Hadamard_Poles <> test_truncated_poles_3 def
+def 1556:1575 <> three_poles_explicit
+R1579:1579 Formalization.define_complex <> C rec
+R1586:1589 Formalization.define_complex <> Cmul def
+R1596:1599 Formalization.define_complex <> Cmul def
+R1609:1612 Formalization.define_complex <> Cdiv def
+R1615:1617 Formalization.define_complex <> mkC constr
+R1625:1628 Formalization.define_complex <> Csub def
+R1631:1633 Formalization.define_complex <> mkC constr
+R1640:1657 Formalization.Truncated_Hadamard_Poles <> first_trivial_pole def
+R1669:1672 Formalization.define_complex <> Cdiv def
+R1675:1677 Formalization.define_complex <> mkC constr
+R1685:1688 Formalization.define_complex <> Csub def
+R1691:1693 Formalization.define_complex <> mkC constr
+R1700:1718 Formalization.Truncated_Hadamard_Poles <> second_trivial_pole def
+R1728:1731 Formalization.define_complex <> Cdiv def
+R1734:1736 Formalization.define_complex <> mkC constr
+R1744:1747 Formalization.define_complex <> Csub def
+R1750:1752 Formalization.define_complex <> mkC constr
+R1759:1776 Formalization.Truncated_Hadamard_Poles <> third_trivial_pole def
+prf 1869:1892 <> test_three_trivial_poles
+R1926:1928 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1898:1925 Formalization.Truncated_Hadamard_Poles <> hadamard_product_three_poles def
+R1929:1948 Formalization.Truncated_Hadamard_Poles <> three_poles_explicit def
+R2055:2072 Formalization.Truncated_Hadamard_Poles <> first_trivial_pole def
+R2128:2146 Formalization.Truncated_Hadamard_Poles <> second_trivial_pole def
+R2201:2218 Formalization.Truncated_Hadamard_Poles <> third_trivial_pole def
+R2295:2316 Formalization.Truncated_Hadamard_Poles <> test_truncated_poles_1 def
+R2394:2415 Formalization.Truncated_Hadamard_Poles <> test_truncated_poles_2 def
+R2492:2513 Formalization.Truncated_Hadamard_Poles <> test_truncated_poles_3 def
+R2592:2619 Formalization.Truncated_Hadamard_Poles <> hadamard_product_three_poles def
+R2702:2721 Formalization.Truncated_Hadamard_Poles <> three_poles_explicit def

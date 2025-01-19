@@ -1,0 +1,114 @@
+DIGEST 42ac6453cf4ed4500987cb55418e77d8
+FFormalization.Hadamard_product
+R224:229 Coq.ZArith.ZArith <> <> lib
+R266:270 Coq.Reals.Reals <> <> lib
+R311:314 Coq.Lists.List <> <> lib
+R365:377 Coq.Lists.List ListNotations <> mod
+R458:471 Formalization.define_complex <> <> lib
+def 642:654 <> hadamard_term
+R665:665 Formalization.define_complex <> C rec
+binder 657:657 <> z:1
+binder 659:661 <> rho:2
+R670:670 Formalization.define_complex <> C rec
+R677:680 Formalization.define_complex <> Csub def
+R683:685 Formalization.define_complex <> mkC constr
+R693:696 Formalization.define_complex <> Cdiv def
+R698:698 Formalization.Hadamard_product <> z:1 var
+R700:702 Formalization.Hadamard_product <> rho:2 var
+def 759:776 <> hadamard_term_pole
+R787:787 Formalization.define_complex <> C rec
+binder 779:779 <> z:3
+binder 781:783 <> rho:4
+R792:792 Formalization.define_complex <> C rec
+R799:802 Formalization.define_complex <> Cdiv def
+R805:807 Formalization.define_complex <> mkC constr
+R815:818 Formalization.define_complex <> Csub def
+R820:820 Formalization.Hadamard_product <> z:3 var
+R822:824 Formalization.Hadamard_product <> rho:4 var
+def 875:888 <> hadamard_zeros
+R895:895 Formalization.define_complex <> C rec
+binder 891:891 <> z:5
+R907:910 Coq.Init.Datatypes <> list ind
+R912:912 Formalization.define_complex <> C rec
+binder 899:903 <> zeros:6
+R917:917 Formalization.define_complex <> C rec
+R924:933 Coq.Lists.List <> fold_right def
+R951:953 Coq.Lists.List <> map def
+R988:992 Formalization.Hadamard_product <> zeros:6 var
+binder 960:962 <> rho:7
+R967:979 Formalization.Hadamard_product <> hadamard_term def
+R981:981 Formalization.Hadamard_product <> z:5 var
+R983:985 Formalization.Hadamard_product <> rho:7 var
+R941:943 Formalization.define_complex <> mkC constr
+R935:938 Formalization.define_complex <> Cmul def
+def 1043:1056 <> hadamard_poles
+R1063:1063 Formalization.define_complex <> C rec
+binder 1059:1059 <> z:8
+R1075:1078 Coq.Init.Datatypes <> list ind
+R1080:1080 Formalization.define_complex <> C rec
+binder 1067:1071 <> poles:9
+R1085:1085 Formalization.define_complex <> C rec
+R1092:1101 Coq.Lists.List <> fold_right def
+R1119:1121 Coq.Lists.List <> map def
+R1161:1165 Formalization.Hadamard_product <> poles:9 var
+binder 1128:1130 <> rho:10
+R1135:1152 Formalization.Hadamard_product <> hadamard_term_pole def
+R1154:1154 Formalization.Hadamard_product <> z:8 var
+R1156:1158 Formalization.Hadamard_product <> rho:10 var
+R1109:1111 Formalization.define_complex <> mkC constr
+R1103:1106 Formalization.define_complex <> Cmul def
+def 1243:1258 <> hadamard_product
+R1265:1265 Formalization.define_complex <> C rec
+binder 1261:1261 <> z:11
+R1283:1286 Coq.Init.Datatypes <> list ind
+R1288:1288 Formalization.define_complex <> C rec
+binder 1269:1273 <> zeros:12
+binder 1275:1279 <> poles:13
+R1293:1293 Formalization.define_complex <> C rec
+R1300:1303 Formalization.define_complex <> Cmul def
+R1306:1319 Formalization.Hadamard_product <> hadamard_zeros def
+R1321:1321 Formalization.Hadamard_product <> z:11 var
+R1323:1327 Formalization.Hadamard_product <> zeros:12 var
+R1331:1344 Formalization.Hadamard_product <> hadamard_poles def
+R1346:1346 Formalization.Hadamard_product <> z:11 var
+R1348:1352 Formalization.Hadamard_product <> poles:13 var
+def 1413:1422 <> test_zeros
+R1426:1429 Coq.Init.Datatypes <> list ind
+R1431:1431 Formalization.define_complex <> C rec
+R1436:1436 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1444:1445 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1453:1453 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1437:1439 Formalization.define_complex <> mkC constr
+R1446:1448 Formalization.define_complex <> mkC constr
+def 1487:1496 <> test_poles
+R1500:1503 Coq.Init.Datatypes <> list ind
+R1505:1505 Formalization.define_complex <> C rec
+R1510:1510 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1518:1519 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1527:1527 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1511:1513 Formalization.define_complex <> mkC constr
+R1520:1522 Formalization.define_complex <> mkC constr
+def 1602:1622 <> test_hadamard_product
+R1626:1626 Formalization.define_complex <> C rec
+R1633:1648 Formalization.Hadamard_product <> hadamard_product def
+R1651:1653 Formalization.define_complex <> mkC constr
+R1660:1669 Formalization.Hadamard_product <> test_zeros def
+R1671:1680 Formalization.Hadamard_product <> test_poles def
+def 1743:1766 <> test_hadamard_zeros_only
+R1770:1770 Formalization.define_complex <> C rec
+R1777:1790 Formalization.Hadamard_product <> hadamard_zeros def
+R1793:1795 Formalization.define_complex <> mkC constr
+R1802:1802 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1810:1811 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1819:1819 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1803:1805 Formalization.define_complex <> mkC constr
+R1812:1814 Formalization.define_complex <> mkC constr
+def 1882:1905 <> test_hadamard_poles_only
+R1909:1909 Formalization.define_complex <> C rec
+R1916:1929 Formalization.Hadamard_product <> hadamard_poles def
+R1932:1934 Formalization.define_complex <> mkC constr
+R1941:1941 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1949:1950 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1958:1958 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1942:1944 Formalization.define_complex <> mkC constr
+R1951:1953 Formalization.define_complex <> mkC constr

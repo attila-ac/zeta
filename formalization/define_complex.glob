@@ -1,0 +1,152 @@
+DIGEST d47eda994fda427dde73c4f6556fc745
+FFormalization.define_complex
+R174:178 Coq.Reals.Reals <> <> lib
+rec 264:264 <> C
+proj 284:285 <> re
+proj 310:311 <> im
+R289:289 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R315:315 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+def 396:399 <> Cadd
+R408:408 Formalization.define_complex <> C rec
+binder 402:402 <> x:4
+binder 404:404 <> y:5
+R413:413 Formalization.define_complex <> C rec
+R420:422 Formalization.define_complex <> mkC constr
+R429:431 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R425:426 Formalization.define_complex <> re proj
+R428:428 Formalization.define_complex <> x:4 var
+R432:433 Formalization.define_complex <> re proj
+R435:435 Formalization.define_complex <> y:5 var
+R443:445 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R439:440 Formalization.define_complex <> im proj
+R442:442 Formalization.define_complex <> x:4 var
+R446:447 Formalization.define_complex <> im proj
+R449:449 Formalization.define_complex <> y:5 var
+def 513:516 <> Cmul
+R525:525 Formalization.define_complex <> C rec
+binder 519:519 <> x:6
+binder 521:521 <> y:7
+R530:530 Formalization.define_complex <> C rec
+R537:539 Formalization.define_complex <> mkC constr
+R542:542 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R554:558 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R570:570 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R547:549 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R543:544 Formalization.define_complex <> re proj
+R546:546 Formalization.define_complex <> x:6 var
+R550:551 Formalization.define_complex <> re proj
+R553:553 Formalization.define_complex <> y:7 var
+R563:565 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R559:560 Formalization.define_complex <> im proj
+R562:562 Formalization.define_complex <> x:6 var
+R566:567 Formalization.define_complex <> im proj
+R569:569 Formalization.define_complex <> y:7 var
+R580:580 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R592:596 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R608:608 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R585:587 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R581:582 Formalization.define_complex <> re proj
+R584:584 Formalization.define_complex <> x:6 var
+R588:589 Formalization.define_complex <> im proj
+R591:591 Formalization.define_complex <> y:7 var
+R601:603 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R597:598 Formalization.define_complex <> im proj
+R600:600 Formalization.define_complex <> x:6 var
+R604:605 Formalization.define_complex <> re proj
+R607:607 Formalization.define_complex <> y:7 var
+def 669:672 <> Csub
+R681:681 Formalization.define_complex <> C rec
+binder 675:675 <> x:8
+binder 677:677 <> y:9
+R686:686 Formalization.define_complex <> C rec
+R693:695 Formalization.define_complex <> mkC constr
+R702:704 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R698:699 Formalization.define_complex <> re proj
+R701:701 Formalization.define_complex <> x:8 var
+R705:706 Formalization.define_complex <> re proj
+R708:708 Formalization.define_complex <> y:9 var
+R716:718 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R712:713 Formalization.define_complex <> im proj
+R715:715 Formalization.define_complex <> x:8 var
+R719:720 Formalization.define_complex <> im proj
+R722:722 Formalization.define_complex <> y:9 var
+def 782:786 <> Cconj
+R793:793 Formalization.define_complex <> C rec
+binder 789:789 <> x:10
+R798:798 Formalization.define_complex <> C rec
+R805:807 Formalization.define_complex <> mkC constr
+R810:811 Formalization.define_complex <> re proj
+R813:813 Formalization.define_complex <> x:10 var
+R817:818 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R819:820 Formalization.define_complex <> im proj
+R822:822 Formalization.define_complex <> x:10 var
+def 887:891 <> Cmod2
+R898:898 Formalization.define_complex <> C rec
+binder 894:894 <> x:11
+R903:903 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R910:910 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R922:926 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R938:938 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R915:917 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R911:912 Formalization.define_complex <> re proj
+R914:914 Formalization.define_complex <> x:11 var
+R918:919 Formalization.define_complex <> re proj
+R921:921 Formalization.define_complex <> x:11 var
+R931:933 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R927:928 Formalization.define_complex <> im proj
+R930:930 Formalization.define_complex <> x:11 var
+R934:935 Formalization.define_complex <> im proj
+R937:937 Formalization.define_complex <> x:11 var
+def 995:998 <> Cdiv
+R1007:1007 Formalization.define_complex <> C rec
+binder 1001:1001 <> x:12
+binder 1003:1003 <> y:13
+R1012:1012 Formalization.define_complex <> C rec
+R1032:1036 Formalization.define_complex <> Cmod2 def
+R1038:1038 Formalization.define_complex <> y:13 var
+binder 1023:1027 <> denom:14
+R1045:1047 Formalization.define_complex <> mkC constr
+R1050:1050 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R1076:1079 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R1062:1064 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1055:1057 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1051:1052 Formalization.define_complex <> re proj
+R1054:1054 Formalization.define_complex <> x:12 var
+R1058:1059 Formalization.define_complex <> re proj
+R1061:1061 Formalization.define_complex <> y:13 var
+R1069:1071 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1065:1066 Formalization.define_complex <> im proj
+R1068:1068 Formalization.define_complex <> x:12 var
+R1072:1073 Formalization.define_complex <> im proj
+R1075:1075 Formalization.define_complex <> y:13 var
+R1080:1084 Formalization.define_complex <> denom:14 var
+R1094:1094 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R1120:1123 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R1106:1108 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R1099:1101 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1095:1096 Formalization.define_complex <> im proj
+R1098:1098 Formalization.define_complex <> x:12 var
+R1102:1103 Formalization.define_complex <> re proj
+R1105:1105 Formalization.define_complex <> y:13 var
+R1113:1115 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1109:1110 Formalization.define_complex <> re proj
+R1112:1112 Formalization.define_complex <> x:12 var
+R1116:1117 Formalization.define_complex <> im proj
+R1119:1119 Formalization.define_complex <> y:13 var
+R1124:1128 Formalization.define_complex <> denom:14 var
+ax 1192:1196 <> Gamma
+R1201:1204 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1200:1200 Formalization.define_complex <> C rec
+R1205:1205 Formalization.define_complex <> C rec
+ax 1275:1278 <> zeta
+R1283:1286 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1282:1282 Formalization.define_complex <> C rec
+R1287:1287 Formalization.define_complex <> C rec
+prf 1366:1384 <> functional_equation
+R1391:1391 Formalization.define_complex <> C rec
+binder 1387:1387 <> s:17
+R1404:1551 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1398:1401 Formalization.define_complex <> zeta defax
+R1403:1403 Formalization.define_complex <> s:17 var
+R1552:1555 Formalization.define_complex <> zeta defax
+R1557:1557 Formalization.define_complex <> s:17 var

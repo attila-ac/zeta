@@ -1,0 +1,60 @@
+DIGEST d9ba0a35a68dabfaa76fc647ac43d434
+FFormalization.trigonometric_exponential_constants
+R83:88 Coq.ZArith.ZArith <> <> lib
+R125:129 Coq.Reals.Reals <> <> lib
+R189:202 Formalization.define_complex <> <> lib
+ax 338:339 <> pi
+R343:343 Formalization.define_complex <> C rec
+ax 452:454 <> sin
+R459:462 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R458:458 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R463:463 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+ax 515:517 <> cos
+R522:525 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R521:521 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R526:526 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+ax 653:655 <> exp
+R660:663 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R659:659 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R664:664 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+ax 723:725 <> pow
+R730:733 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R729:729 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R735:738 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R734:734 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R739:739 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+ax 835:842 <> pi_div_2
+R846:846 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+ax 855:873 <> pi_div_2_definition
+R885:887 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R877:884 Formalization.trigonometric_exponential_constants <> pi_div_2 defax
+R890:892 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R888:889 Coq.Reals.Rtrigo1 <> PI def
+prf 1002:1025 <> sin_pi_div_2_placeholder
+R1041:1043 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1029:1031 Formalization.trigonometric_exponential_constants <> sin defax
+R1033:1040 Formalization.trigonometric_exponential_constants <> pi_div_2 defax
+R1044:1046 Formalization.trigonometric_exponential_constants <> sin defax
+R1048:1055 Formalization.trigonometric_exponential_constants <> pi_div_2 defax
+ax 1164:1168 <> exp_1
+R1172:1172 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+ax 1210:1225 <> exp_1_definition
+R1234:1236 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1229:1233 Formalization.trigonometric_exponential_constants <> exp_1 defax
+R1237:1239 Formalization.trigonometric_exponential_constants <> exp defax
+prf 1303:1319 <> exp_1_placeholder
+R1328:1330 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1323:1327 Formalization.trigonometric_exponential_constants <> exp_1 defax
+R1331:1335 Formalization.trigonometric_exponential_constants <> exp_1 defax
+prf 1468:1492 <> trig_identity_placeholder
+R1523:1525 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1508:1510 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1496:1498 Formalization.trigonometric_exponential_constants <> sin defax
+R1500:1507 Formalization.trigonometric_exponential_constants <> pi_div_2 defax
+R1511:1513 Formalization.trigonometric_exponential_constants <> cos defax
+R1515:1522 Formalization.trigonometric_exponential_constants <> pi_div_2 defax
+R1538:1540 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1526:1528 Formalization.trigonometric_exponential_constants <> sin defax
+R1530:1537 Formalization.trigonometric_exponential_constants <> pi_div_2 defax
+R1541:1543 Formalization.trigonometric_exponential_constants <> cos defax
+R1545:1552 Formalization.trigonometric_exponential_constants <> pi_div_2 defax

@@ -1,0 +1,45 @@
+DIGEST 8ac015364cd04cf10b9b2f0888a06b4b
+FFormalization.shadow_function_degree
+R190:195 Coq.ZArith.ZArith <> <> lib
+ind 282:289 <> Zeropole
+constr 303:306 <> Zero
+constr 321:324 <> Pole
+R310:317 Formalization.shadow_function_degree <> Zeropole:1 ind
+R328:335 Formalization.shadow_function_degree <> Zeropole:1 ind
+scheme 282:289 <> Zeropole_rect
+scheme 282:289 <> Zeropole_ind
+scheme 282:289 <> Zeropole_rec
+scheme 282:289 <> Zeropole_sind
+def 412:421 <> aleph_null
+R425:425 Coq.Numbers.BinNums <> Z ind
+def 549:554 <> degree
+R583:583 Coq.Numbers.BinNums <> Z ind
+binder 557:561 <> zeros:3
+binder 563:567 <> poles:4
+binder 569:579 <> simple_pole:5
+R588:588 Coq.Numbers.BinNums <> Z ind
+R608:610 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R600:602 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R595:599 Formalization.shadow_function_degree <> zeros:3 var
+R603:607 Formalization.shadow_function_degree <> poles:4 var
+R611:621 Formalization.shadow_function_degree <> simple_pole:5 var
+def 689:702 <> example_degree
+R706:706 Coq.Numbers.BinNums <> Z ind
+R713:718 Formalization.shadow_function_degree <> degree def
+R720:729 Formalization.shadow_function_degree <> aleph_null def
+R731:740 Formalization.shadow_function_degree <> aleph_null def
+prf 867:891 <> degree_correct_aleph_null
+R911:913 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R897:910 Formalization.shadow_function_degree <> example_degree def
+R938:951 Formalization.shadow_function_degree <> example_degree def
+R954:959 Formalization.shadow_function_degree <> degree def
+prf 1081:1096 <> zeropole_balance
+R1126:1128 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1113:1115 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1103:1112 Formalization.shadow_function_degree <> aleph_null def
+R1116:1125 Formalization.shadow_function_degree <> aleph_null def
+prf 1234:1259 <> shadow_function_minimality
+R1300:1302 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1265:1270 Formalization.shadow_function_degree <> degree def
+R1272:1281 Formalization.shadow_function_degree <> aleph_null def
+R1283:1292 Formalization.shadow_function_degree <> aleph_null def
