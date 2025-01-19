@@ -1,0 +1,9 @@
+# Ignore Coq compiled files
+*.vo
+*.vok
+*.vos
+*.glob
+
+# Include specific files that were ignored
+!README.md
+!hadamard_term_test.v
