@@ -1,6 +1,6 @@
 Proof of the Riemann Hypothesis via Zeropole Balance
 
-This repository contains the manuscript **"Proof of the Riemann Hypothesis via Zeropole Balance"** authored by Attila Csordas. The manuscript presents a proposed proof of the Riemann Hypothesis using the zeropole balance framework derived from the Hadamard product of the Riemann zeta function.
+This repository contains the manuscript **"Proof attempt of the Riemann Hypothesis via Zeropole Balance"** authored by Attila Csordas. The manuscript presents a proposed proof of the Riemann Hypothesis using the zeropole balance framework.
 
 Associated twitter thread with the popular version of the story: https://x.com/attilacsordas/status/1872286922212532607
 
@@ -8,17 +8,13 @@ Timeline and Notes:
 - The manuscript was finalized and submitted to the **Annals of Mathematics** on **December 24, 2024**.
 - On **December 25, 2024**, the LaTeX template was updated from the specific **aomart** format used for submission to the Annals of Mathematics to a more general template for broader accessibility. No substantive changes were made to the content of the manuscript.
 - Formalization branch was added on the 2nd of January, 2025 with initial commits using coq proof assistant.
-- On 4th of January an error was spotted related to how the trivial poles arise and the manuscript was updated and resubmitted with a fix. The primary fix pertains to the explicit introduction of trivial poles in the Hadamard product formulation and this oversight necessitated revisions to sections addressing the functional equation, Hadamard product, and related zeropole balance mechanics. While these changes refine the details of the framework. Tthe core structure of the proof—built upon the zeropole balance framework—remains intact.
+- On 4th of January an error was spotted related to how the trivial poles arise and the manuscript was updated and resubmitted with a fix. The primary fix pertains to the explicit introduction of trivial poles in the Hadamard product formulation and this oversight necessitated revisions to sections addressing the functional equation, Hadamard product, and related zeropole balance mechanics. While these changes refine the details of the framework. The core structure of the proof—built upon the zeropole balance framework—remains intact.
+- Major update with extended divisor framework, 3 different compactification approaches, and addressing many smaller gaps in the proof attempt logic on 25th of January, 2025.
 
 Contents:
-- The original, full manuscript is included as `manuscript_RH_via_Zeropole_Balance_Attila_Csordas_preprint_12252024.pdf`.
-- Updated, resubmitted  manuscript: manuscript_RH_via_Zeropole_Balance_Attila_Csordas_01042025_resubmission.pdf
-- Updated one-pager: one_pager_fix.pdf
-- Appendix_Cardinality.pdf
-- Appendix_on_geometric_Riemann_Roch_version_of_Zerobalance_RH_proof.pdf
-- Adjustment of the Shadow Function stabiliser term to avoid ambiguities stabiliser_clean.pdf
-
-The full LaTeX source code for this manuscript will be added soon, ensuring reproducibility and enabling contributions from the community.
+- Archives folder: The original, full manuscript is included as `manuscript_RH_via_Zeropole_Balance_Attila_Csordas_preprint_12252024.pdf`.
+- Archives folder: Updated, resubmitted  manuscript: manuscript_RH_via_Zeropole_Balance_Attila_Csordas_01042025_resubmission.pdf
+- Current, best version of manuscript: manuscript.pdf
 
 Peer Review:
 The manuscript received an initial review from the Annals of Mathematics in January 2025:
@@ -27,36 +23,7 @@ The manuscript received an initial review from the Annals of Mathematics in Janu
 3. Review received: January 9, 2025
 4. Response submitted: January 10, 2025
 
-The peer review documentation can be found in `/submissions/annals-2024-12/`:
-- `rejection-letter.pdf`: Official response from Annals of Mathematics
-- `rejection-letter-screenshot.png`: Screenshot of the original email
-- `technical_response_to_reviewer.pdf`: Detailed technical response addressing the reviewer's concerns
-- `email_response_to_reviewer.pdf`: Email response to the editorial board
-- Original submission: `manuscript_RH_via_Zeropole_Balance_Attila_Csordas_original_submission_12242024.pdf`
-- Resubmission: `manuscript_RH_via_Zeropole_Balance_Attila_Csordas_01042025_resubmission.pdf`
-
-The review focused on the Davenport-Heilbronn paper (1936) about zeros of certain Dirichlet series. Our response demonstrates why this comparison overlooks the fundamental geometric and algebraic machinery of our proof, including:
-- Zeropole perpendicularity framework
-- Riemann-Roch machinery on compactified surfaces
-- Minimality arguments through divisor theory
-- Shadow function construction
-
-Acta Mathematica Submission:
-After addressing the feedback in the form of appendices, the manuscript was revised for clarity and better exposition of the key concepts and some appendices built in. In particular:
-
-Several parts of the manuscript were rewritten to better explain the Zeropole Balance Framework.
-Special focus was given to improving the explanation of the two crucial theorems:
-Zeropole Mapping and Orthogonal Balance of $\zeta(s)$
-Zeropole Mapping and Orthogonal Balance of $\zeta^*(s)$
-Shadow Function Construction and Role of Exponential stabiliser
-While these revisions enhance the manuscript’s readability and presentation, the overall structure and mathematical integrity of the proof remain unchanged.
-
-The revised manuscript was submitted to Acta Mathematica on January 14, 2025. The submission folder is located in /submissions/acta-mathematica-2025-01/, containing the following files:
-
-manuscript_RH_via_Zeropole_Balance_Attila_Csordas_14012025_Acta_Mathematica.pdf: The updated manuscript submitted to Acta Mathematica.
-acta_mathematica_acknowledgement_of_submission.png
-
-This updated version demonstrates the robustness of the Zeropole Balance Framework and provides a clearer exposition of the two pivotal theorems, ensuring a comprehensive understanding of the proof’s foundation.
+The peer review documentation can be found in 'Submissions' folder.
 
 LLM Testing Section:
 To stress-test the proposed proof, advanced large language models (LLMs) were tasked with analyzing the manuscript for any technical issues. The models evaluated the core manuscript and its version with appendices designed to preemptively address naive objections. 
