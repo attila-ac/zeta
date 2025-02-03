@@ -11,6 +11,7 @@ Timeline and Notes:
 - On 4th of January an error was spotted related to how the trivial poles arise and the manuscript was updated and resubmitted with a fix. The primary fix pertains to the explicit introduction of trivial poles in the Hadamard product formulation and this oversight necessitated revisions to sections addressing the functional equation, Hadamard product, and related zeropole balance mechanics. While these changes refine the details of the framework. The core structure of the proof—built upon the zeropole balance framework—remains intact.
 - Major update with extended divisor framework, 3 different compactification approaches, and addressing many smaller gaps in the proof attempt logic on 25th of January, 2025.
 - Major update focusing on torus compactification only on 2th February 2025.
+- Major update with finite periodic divisor structure on 3rd February 2025.
 
 Contents:
 - Archives folder: The original, full manuscript is included as `manuscript_RH_via_Zeropole_Balance_Attila_Csordas_preprint_12252024.pdf`.
