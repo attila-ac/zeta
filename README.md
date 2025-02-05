@@ -57,7 +57,7 @@ The repository serves to:
 4. Testing the proof with advanced llm models and vice versa
 
 Acknowledgements:
-The author, an amateur mathematician with a Ph.D. in translational geroscience, extends heartfelt gratitude to OpenAI's ChatGPT-4 for providing critical insights, mathematical knowledge, and assistance in proof formulation, significantly expediting the process. Special thanks to Professor Janos Kollar, algebraic geometrist, for flagging an issue in the original proof leading to the construction of the shadow function and Adam Antonik, Ph.D., for his probing questions that helped refine the proof. Special thanks for Daniel Migliozzi for his questions and comments that helped to make a better version of the manuscript related to the crucial Zeropole Mapping and Orthogonal Balance theorems. 
+The author, an amateur mathematician with a Ph.D. in translational geroscience, extends heartfelt gratitude to OpenAI's ChatGPT-4 for providing critical insights, mathematical knowledge, and assistance in proof formulation, significantly expediting the process. Special thanks to Professor Janos Kollar, algebraic geometrist, for flagging an issue in the original proof leading to the construction of the shadow function and Adam Antonik, Ph.D., for his probing questions that helped refine the proof. Author is grateful for Tibor Szkaliczki, Ph.D. for pinpointing a minor technical issue in the Hadamard Product convergence proof. 
 Any errors or inaccuracies in the proof remain the sole responsibility of the author.
 
 License:$
