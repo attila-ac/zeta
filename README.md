@@ -12,7 +12,8 @@ Timeline and Notes:
 - Major update with extended divisor framework, 3 different compactification approaches, and addressing many smaller gaps in the proof attempt logic on 25th of January, 2025.
 - Major update focusing on torus compactification only on 2th February 2025.
 - Major update with finite periodic divisor structure on 3rd February 2025.
-- Minor but important update related to Existence of Well-Defined Fundamental Domain Size 3 new subsections
+- Minor but important update related to Existence of Well-Defined Fundamental Domain Size 3 new subsections on 4th of February
+- 2 relevant updates on 6th of February: i., Minimality, Uniqueness and Exclusion of Off-Critical Zeros section worked out rigorously especially the reductio ad absurdum structure, ii., Fundamental Domain Divisor Structure better established, got rid of fractional contribution, found simpler solution, closer to standard divisor theory
 
 Contents:
 - Archives folder: The original, full manuscript is included as `manuscript_RH_via_Zeropole_Balance_Attila_Csordas_preprint_12252024.pdf`.
