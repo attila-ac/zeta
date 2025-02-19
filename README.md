@@ -1,4 +1,6 @@
-Proof of the Riemann Hypothesis via Zeropole Balance
+Proof attempt of the Riemann Hypothesis via Zeropole Balance
+
+Important Update on the 12th of February: Somebody just reported a very serious issue with it, that might show the actual proof mechanic is flawed, am investigating but this seems like a pretty convincing blocker
 
 This repository contains the manuscript **"Proof attempt of the Riemann Hypothesis via Zeropole Balance"** authored by Attila Csordas. The manuscript presents a proposed proof of the Riemann Hypothesis using the zeropole balance framework.
 
