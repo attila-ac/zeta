@@ -17,6 +17,7 @@ Timeline and Notes:
 - major update on 12th of February with 3 new sections added in discussion, The Deep Structure of RH as Zeropole Balance, Imaginary Shadow Function and Imaginary Primes, RH as a Continuity Principle in Number Theory
 - Important Update on the 12th of February: Somebody just reported a very serious issue with it, that might show the actual proof mechanic is flawed, am investigating but this seems like a pretty convincing blocke$
 - 19th of February: new version of manuscript: Saddle Geometry and Complex Plane Eversion: A Topological Minimality Route to the Riemann Hypothesis$
+- 20th of February Higher-Order Stability Analysis and Stage Independence Supp Material plus 2 manuscript updates
 
 Contents:
 - Current, best version of manuscript: manuscript.pdf
