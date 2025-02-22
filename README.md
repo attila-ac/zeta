@@ -1,8 +1,4 @@
-Proof attempt of the Riemann Hypothesis via Singularity Balance
-
-This repository contains the manuscript **"Proof attempt of the Riemann Hypothesis via Singularity Balance"** authored by Attila Csordas. The manuscript presents a proposed proof of the Riemann Hypothesis using the zeropole balance framework.
-
-Associated twitter thread with the popular version of the story: https://x.com/attilacsordas/status/1872286922212532607
+Wondering around the Riemann zeta
 
 Timeline and Notes:
 - The manuscript was finalized and submitted to the **Annals of Mathematics** on **December 24, 2024**.
@@ -27,7 +23,6 @@ The repository serves to:
 1. Provide a timestamped public preprint version of the manuscript.
 2. Facilitate open feedback and discussion on the proposed proof.
 3. Document the peer review process and responses transparently
-4. Testing the proof with advanced llm models and vice versa
 
 Acknowledgements:
 The author, an amateur mathematician with a Ph.D. in translational geroscience, extends heartfelt gratitude to OpenAI's ChatGPT-4 for providing critical insights, mathematical knowledge, and assistance in proof formulation, significantly expediting the process. Special thanks to Professor Janos Kollar, algebraic geometrist, for flagging an issue in the original proof leading to the construction of the shadow function and Adam Antonik, Ph.D., for his probing questions that helped refine the proof. Author is grateful for Tibor Szkaliczki, Ph.D. for pinpointing a minor technical issue in the Hadamard Product convergence proof. 
